@@ -1,0 +1,396 @@
+
+header {
+    background-color: #fff;
+    width:100%;
+    height: 40px;
+}
+
+.name {
+    font-size: 24px ;
+    font-weight: 900;
+    color: #111;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   text-transform: uppercase;
+   display: block;
+   margin: 0 auto;
+   text-align: center;  
+} 
+.name img {
+    width: 35px;
+    height: 20px;
+}
+header nav ul { 
+    display: block;    
+    padding-left: 15px; 
+}
+header nav ul li {
+    display: inline;
+    float: left;
+    padding-right:3px;
+
+    list-style: none;
+} 
+header nav ul li a{
+    text-decoration: none;
+    color: #111;
+    font-size: 14.5px;
+    text-transform: uppercase;
+    padding-right:2px ;
+} 
+
+@media only screen and (min-width: 1000px){
+   header{
+       height: 20px;
+       width: 100%;
+   }
+    .name {
+        
+        float: left;
+        font-size: 30px;
+       margin: auto 0;  
+        padding-left: 40px;  
+    } 
+    .name img{
+
+        float: left;
+        width: 45px;
+        height: 30px;
+        
+    }
+    header nav ul {
+        float: right;
+    }
+    header nav ul li {
+      margin-right: 20px;
+      font-size: 20px;
+      padding: 0 0 0 20px;
+    } 
+}
+
+ /*Main*/
+ main{
+    width:100%;
+
+}
+ .first-main {
+height: 500px ;
+background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS_zelLO1YKihbkDTXHQQ2bO37EcM9es_9apQ&usqp=CAU');
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+ opacity: 0.8;
+}
+
+ .first-main h2{
+     margin-top: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    color: #fff;
+    text-align: center;
+    padding-top: 35px;
+    line-height: 20px;
+    text-shadow: 3px 3px black;
+    text-transform: uppercase;
+}
+.first-main h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 23px;
+    font-weight: 200;
+    color: #fff;
+    text-align: center;
+    padding-top: 30px;
+    line-height: 30px;
+    text-shadow: 3px 3px 8px black;
+}
+.center-border{
+ margin-left: 70px;
+}
+.center-border ul{
+    list-style: none;
+    font-size: 23px;
+    margin-bottom: 5px;
+}
+.center-border ul li{
+    margin-right: 115px;
+    padding: 6px;
+    margin-top: 25px;
+}
+.center-border ul li a{
+      text-decoration: none;
+      color: white;
+      font-family: Arial, Helvetica, sans-serif;
+
+}
+.learn-border{
+    border: 2px solid white;
+    text-shadow: 2px 2px 8px black;
+    
+    opacity: 0.8;
+    color: white;
+}
+.contact-border {
+    border: 2px solid black;
+    background-color: black;
+}
+@media only screen and (min-width: 1000px){
+    
+    .first-main{
+        width: 100%;
+        height:440px ;
+        display: table;
+        margin-top: 30px;
+    }
+    .vertical-align{
+        display: table-cell;
+    }
+    .first-main h2{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 60px;
+        line-height: 5px;
+    }
+
+    .first-main h3{
+        width: 880px;
+        padding-top: 30px;
+        line-height: 35px;
+        margin: auto;
+    }
+
+    .center-border{
+        margin-left: 500px ;
+        margin-top: 80px;
+     }
+     .center-border ul li{
+        display: inline;
+        list-style: none;
+        margin-right: 20px;
+        padding: 8px;
+    }
+     .center-border ul li a{
+        text-shadow: 2px;
+        font-weight: 600;
+     }
+
+
+    }
+
+.section-second {
+    height: 50px;
+    line-height: 3px;
+    padding-top: 20px;
+}
+.section-second h1{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.section-second h3{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 100;
+    color: grey;
+}
+
+.box-first{
+    margin: 16px 16px 0 ;
+    width: calc( 100% - 32px);
+    background-color: rgb(212, 233, 240);
+    height: 80px;
+}
+.box-first p {
+    overflow: hidden;
+    height: 0;
+}
+.divtext a{
+    text-decoration: none;
+    color: #111;
+}
+.divtext   h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 550;
+    text-align:center;
+    line-height: 80px;
+}
+
+
+@media only screen and (min-width: 1000px){ 
+    .section-second {
+        height: 80px;  
+        padding-top: 50px;  
+    }
+    .index-section div{
+        display:block;
+        float: left;
+        width: 100%;
+    }
+   
+    .box-first{
+        margin: 10px 10px 0 ;
+        width: calc( 33.33% - 20px) !important;
+        height: 200px;
+        background-image: url('https://thumbs.dreamstime.com/b/teamwork-concept-project-team-making-conversation-meeting-room-office-horizontal-blurred-background-flares-102335973.jpg');
+        background-position: center;
+        background-size: cover;
+        opacity: 0.8;
+    }
+    .box-first p {
+        overflow: visible;
+       text-align: center;
+       border: 2px solid white;
+       color: white;
+       text-shadow: 2px 2px 8px black;
+      margin-left: 150px;
+      margin-bottom: 10px;
+      margin-right: 150px;
+      height: 22px;
+      padding-top: 7px;      
+    }
+    .box-first h3  {
+        text-shadow: 2px 2px 8px black;
+        line-height: 4px;
+        color: white;
+    }
+    .box-first a h3{
+        margin-top : 130px;
+       
+    }
+  
+
+}
+
+.fordivtext2 a{
+    text-decoration: none;
+    color: #111;
+}
+.fordivtext2   h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 550;
+    text-align:center;
+    line-height: 80px;
+}
+.linefordiv{
+    background-image: url('https://us.123rf.com/450wm/kantver/kantver1710/kantver171000028/88300141-junge-leute-die-gespr%C3%A4ch-mit-partnern-am-tisch-bilden-mann-der-in-der-hand-papierdokument-h%C3%A4lt-horizonta.jpg?ver=6');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+.section-second2 h1{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 900;
+    text-transform: uppercase;  
+    text-shadow: 3px 3px 8px white;
+}
+.section-second2 h3{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 200;
+    color: rgb(190, 190, 190);
+    text-shadow: 3px 3px 8px black;
+}
+.section-second2 {
+    width: 100%;
+    height: 40px;
+    line-height: 3px;
+    padding-top: 20px;
+}
+.box-second{
+    margin: 16px 16px 0 ;
+    width: calc( 100% - 32px);
+    height: 80px;
+    text-shadow: 3px 3px 8px white;
+}
+.box-second p {
+    overflow: hidden;
+    height: 0;
+    
+}
+
+@media only screen and (min-width: 1000px){
+   
+    .linefordiv{
+        margin-top: 280px; 
+        height: 400px;
+    
+    }
+    .linefordiv div{
+        display: block;
+        float: left;
+        width: 100%;
+        height: 170px;
+       margin-top: 0px;     
+    } 
+    .section-second2 h1{
+        padding-top: 50px;
+    }
+ .section-second2 h3{
+     color: rgb(88, 85, 85);
+     text-shadow: 2px 2px 8px white black;
+    
+ }
+    .box-second{
+        margin: 10px 10px 0px;
+        width: calc( 33.33% - 20px) !important;
+        background-color: rgb(235, 231, 231);
+    }
+    .box-second h3{
+        line-height: 2px;
+    }
+    .box-second p {
+        overflow: visible;
+        text-align: center;
+       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+       
+    }
+}
+
+
+/* FOOTER*/
+footer{
+    width:100%;
+}
+ .divcontact{
+     background-color: black;
+  
+     height: 150px;  
+ }
+ .info{
+     list-style: none;
+     float: left;
+     line-height: 30px;
+     color: white; 
+      padding-left: 1px;
+      font-size: 15px;
+ }
+ .sm-icons{
+    list-style: none;
+    float: right;
+    line-height: 35px;
+    color: white;
+ }
+ @media only screen and (min-width: 1000px){
+    
+    .divcontact{
+        width: 100%;
+        height: 70px;  
+        margin-top: 3px;
+     
+    }
+    .info li {
+       display: inline-block;
+       padding-right: 30px;  
+      
+    }
+    .sm-icons li {
+      display: inline-block;
+      padding-right: 40px;
+    }
+ }
+
